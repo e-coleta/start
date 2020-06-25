@@ -1,0 +1,87 @@
+#page-search-results {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-search-results header {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-search-results header a {
+    color: var(--title-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#page-search-results header a span {
+    margin-right: 16px;
+    background-image: url('../assets/arrow-left.svg');
+    width: 20px;
+    height: 24px;
+    display: flex;
+}
+
+#page-search-results main .img-about img {
+    display: flex;
+    position: absolute;
+    width: 778px;
+    height: 303px;
+    left: 20%;
+    top: 1150px;
+}
+
+#page-search-results main .text-with-image h1 {
+    margin-top: 68px;
+    font-size: 50px;
+}
+
+#page-search-results main h3 {
+    color: #06b153;
+    margin-top: 6px;
+    line-height: 28px;
+}
+
+#page-search-results main .text-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-search-results main .text-with-image img {
+    height: 418px;
+    width: 265px;
+}
+
+#page-search-results main .main-text h2 {
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+#page-search-results main .main-text h4 {
+    margin-top: 18px;
+    margin-left: 10px;
+    line-height: 24px;
+    color: #9c9c9e;
+
+}
+
+body {
+    background-color: white;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    background: #f0f0f5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 9rem;
+    z-index: -1;
+}

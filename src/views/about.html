@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-search-results" %}
+
+{% block title %}
+    <title>Sobre nós</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/about.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+    <main>
+        <div class="text-with-image">
+            <h1>Preserve o presente e garanta <br> o seu futuro!</h1>
+            <img src="/assets/26331.svg" alt="reciclagem">
+        </div>
+
+        <div class="main-text">
+            <h3>A E-Coleta é uma empresa dedicada em trazer praticidade para você,<br> que está procurando um local que realize o descarte correto do seu <br> lixo, mas não quer perder tempo procurando.</h3>
+
+            <h2>Pessoa física:</h2>
+
+            <h4>A E-Coleta une empresas que realizam de forma correta, o descarte de materiais, fazendo com que você: o cliente, <br>se sinta mais confortável e seguro sabendo que o seu lixo estará sendo tratado de maneira correta, por empresas <br>responsáveis e comprometidas com seus consumidores. A E-Coleta foi pensada para ajudar pessoas que precisam <br>descartar o lixo que se acumula em sua casa, e não possui nenhum fim lucrativo, garantindo a você uma experiência <br>fluída e livre de anúncios.</h4>
+
+            <h2>Pessoa jurídica:</h2>
+
+            <h4>Você, dono ou representante de uma empresa ou instituição, seja ela pequena, média ou grande, que realiza o descarte <br>de materiais, que vão desde papel e papelão até resíduos eletrônicos. A E-Coleta é uma empresa que se preocupa em <br>entregar o melhor que um marketplace ecológico poderia oferecer, facilitanda para ambos os lados, seja para empresas, <br>aumentado o seu alcance, quanto para pessoas, tornando mais simples para as pessoas encontrarem lugares que realizam <br>descarte correto de resíduos. Nós, como uma empresa obstinada em facilitar a vida das pessoas, não nos preocupamos <br>com remuneração, garantindo assim uma melhor experiência para todos.</h4>
+        </div>
+
+        <div class="img-about">
+        <img src="/assets/wallpaper-about.svg" alt="faça sua parte">
+        </div>
+
+    </main>
+{% endblock content %}
